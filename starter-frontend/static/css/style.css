@@ -1,0 +1,12 @@
+body {
+    padding-top: 50px;
+}
+
+.card.card-shadowed {
+    box-shadow: 1px 2px 4px -1px rgba(0,0,0,0.3);
+}
+
+.card.card-shadowed .card-block {
+    padding: 10px;
+}
+

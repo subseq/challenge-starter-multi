@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ressourcenplanung</title>
+
+    <!-- Bootstrap / jQuery -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css"
+          integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+            integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+            crossorigin="anonymous"></script>
+
+    <!-- Custom Assets -->
+    <link rel="stylesheet" href="static/css/style.css">
+
+</head>
+<body>
+
+<div class="container">
+    <h1>Ressourcenplanung</h1>
+
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-header">
+                    Aufträge
+                    <small>Ungeplant</small>
+                </div>
+                <div class="card-block">
+                    <div class="card card-shadowed">
+                        <div class="card-block">
+                            <h5 class="card-title">Auftrag #567</h5>
+                            <p class="card-text">
+                                Firma HansMeier GmbH<br>
+                                <small>Fällig am 08.01.2018 | Gepl. Dauer: 3 Tage</small>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card card-shadowed">
+                        <div class="card-block">
+                            <h5 class="card-title">Auftrag #568</h5>
+                            <p class="card-text">
+                                SUBSEQ.NET<br>
+                                <small>Fällig am 10.12.2018 | Gepl. Dauer: 5 Tage</small>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card card-shadowed">
+                        <div class="card-block">
+                            <h5 class="card-title">Auftrag #569</h5>
+                            <p class="card-text">
+                                Firma HansMeier GmbH<br>
+                                <small>Fällig am 31.12.2018 | Gepl. Dauer: 1 Tage</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-8">
+            <div class="card">
+                <div class="card-header">
+                    Plantafel
+                </div>
+                <div>
+                    <table class="table table-bordered" style="margin-bottom: 0; border-bottom: 0;">
+                        <thead>
+                        <tr>
+                            <th class="secondary">Team</th>
+                            <th>Montag</th>
+                            <th>Dienstag</th>
+                            <th>Mittwoch</th>
+                            <th>Donnerstag</th>
+                            <th>Freitag</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td class="secondary">Team A <br>
+                                <small>(Leiter: Alan Touring)</small>
+                            </td>
+                            <td></td>
+                            <td colspan="3">
+                                <div class="card card-shadowed text-white bg-success">
+                                    <div class="card-block">
+                                        <h5 class="card-title">Auftrag #241</h5>
+                                        <p class="card-text">
+                                            Firma HansMeier GmbH<br>
+                                            <small>Fällig am 08.01.2018 | Gepl. Dauer: 3 Tage</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="secondary">Team B <br>
+                                <small>(Leiter: James Gosling)</small>
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td colspan="2">
+                                <div class="card card-shadowed text-white bg-success">
+                                    <div class="card-block">
+                                        <h5 class="card-title">Auftrag #146</h5>
+                                        <p class="card-text">
+                                            Java HQ<br>
+                                            <small>Fällig am 08.01.2018 | Gepl. Dauer: 2 Tage</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="secondary">Team A <br>
+                                <small>(Leiter: Elon Musk)</small>
+                            </td>
+                            <td colspan="5">
+                                <div class="card card-shadowed text-white bg-success">
+                                    <div class="card-block">
+                                        <h5 class="card-title">Auftrag #147</h5>
+                                        <p class="card-text">
+                                            Space X Corp.<br>
+                                            <small>Fällig am 08.12.2018 | Gepl. Dauer: 5 Tage</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
